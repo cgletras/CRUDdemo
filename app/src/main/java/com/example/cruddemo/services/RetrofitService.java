@@ -9,7 +9,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
-    private String baseUrl = "http://10.10.90.101:8080/";
+    private String baseUrl = "https://projeto-integrador-4.herokuapp.com";
     private ApiEndPoint api;
     private static RetrofitService instancia;
 

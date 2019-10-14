@@ -6,8 +6,12 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 
+
 public interface ApiEndPoint {
 
     @POST("/users")
-    Call<DtoUser>cadatraUsuario(@Body DtoUser dtoUser);
+    Call<DtoUser> cadatraUsuario(@Body DtoUser dtoUser);
+
+    @POST("/auth/login")
+    Call<DtoLogin> login(@Body DtoLogin dtoLogin);
 }
