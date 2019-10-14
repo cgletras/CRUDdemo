@@ -10,7 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.ExcluirUsuarioActivity"
+            android:label="Excluir usuário"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.AlteracaoDeUsuarioActivity"
+            android:label="Alterar usuário"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.ListaDeUsuariosActivity"
+            android:label="Listar usuários usuário"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.CadastroDeUsuarioActivity"
+            android:label="Cadastrar usuário"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

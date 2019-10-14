@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.cruddemo.MainActivity">
+    tools:context="com.example.cruddemo.activities.MainActivity">
     <item
         android:id="@+id/action_alteracao_usuario"
         android:icon="@drawable/ic_action_alteracao_usuario"
@@ -24,7 +24,7 @@
         android:title="Lista de usuários"
         app:showAsAction="never" />
     <item
-        android:id="@+id/ction_login"
+        android:id="@+id/action_login"
         android:icon="@drawable/ic_action_login"
         android:title="Login"
         app:showAsAction="always" />
